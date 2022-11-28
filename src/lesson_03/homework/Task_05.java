@@ -2,9 +2,6 @@ package lesson_03.homework;
 import java.util.Scanner;
 
 public class Task_05 {
-
-    public Task_05() {}
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Введите номер месяца: ");

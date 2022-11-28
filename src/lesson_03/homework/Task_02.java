@@ -13,10 +13,6 @@ public class Task_02 {
 //          "зелёный" - если горит зелёный цвет,
 //          "жёлтый" - если горит жёлтый цвет,
 //          "красный" - если горит красный цвет.
-
-    public Task_02() {
-    }
-
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

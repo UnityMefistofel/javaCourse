@@ -9,9 +9,6 @@ public class Task_03 {
 //, где
 //    х - 366 для високосного года,
 //    х - 365 для обычного года.
-
-    public Task_03() {}
-
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

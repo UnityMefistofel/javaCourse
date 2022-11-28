@@ -8,9 +8,6 @@ public class Task_08 {
 //      1.1. Создай массив на 10 чисел
 //      1.2. Считай с консоли 10 чисел и заполни ими массив
 //      2. Найти максимальное число из элементов массива
-
-    public Task_08() {}
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] arrInt = new int[10];

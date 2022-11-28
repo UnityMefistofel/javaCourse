@@ -8,9 +8,6 @@ public class Task_10 {
 //      1. Создать массив на 10 чисел.
 //      2. Ввести с клавиатуры 10 чисел и записать их в массив.
 //      3. Вывести на экран элементы массива в обратном порядке, каждое значение выводить с новой строки.
-
-    public Task_10() {}
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] arrInt = new int[10];

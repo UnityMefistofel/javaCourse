@@ -6,9 +6,6 @@ public class Task_13 {
 //    Массивы
 //    Задаиие 7.
 //    Написать программу, которая вводит с клавиатуры 20 чисел и выводит их в убывающем порядке.
-
-    public Task_13() {}
-
     public static void main(String[] args) {
         int[] arrInt = new int[20];
 

@@ -9,9 +9,6 @@ public class Task_06 {
     //  Вывести на экран текст:
     //  "Меня зовут name.
     //  Я родился d.m.y"
-
-    public Task_06() {}
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Введите 'name': ");

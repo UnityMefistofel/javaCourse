@@ -8,9 +8,6 @@ public class Task_02 {
 //        1. Создай список из слов "мама", "мыла", "раму".
 //        2. После каждого слова вставь в список строку, содержащую слово "именно".
 //        3. Вывести результат на экран, каждый элемент списка с новой строки.
-
-    public Task_02() {}
-
     public static void main(String[] args) {
         ArrayList<String> arrLst = new ArrayList<>();
         final String suff = "именно";

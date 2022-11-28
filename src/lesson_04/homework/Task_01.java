@@ -6,8 +6,6 @@ public class Task_01 {
 //    Циклы
 //    Задание1: Ввести с клавиатуры два числа m и n.
 //    Используя цикл for вывести на экран прямоугольник размером m на n из восьмёрок.
-    public Task_01() {}
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Введите число m: ");

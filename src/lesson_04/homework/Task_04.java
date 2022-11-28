@@ -7,9 +7,6 @@ public class Task_04 {
     // Задание 4: Вводить с клавиатуры числа.
     //   Если пользователь ввел -1, вывести на экран сумму всех введенных чисел и завершить программу.
     //   -1 должно учитываться в сумме.
-
-    public Task_04() {}
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int summ = 0; // сумма чисел
