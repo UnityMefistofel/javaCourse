@@ -1,7 +1,6 @@
-package lesson_05.homework.AppPhBook;
+package lesson_06.homework.AppPhBook;
 
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class Main {
