@@ -19,17 +19,17 @@ public class Main {
         Contact currContact = new Contact();
         String inputStr = "";
 
-        do {
+        while (inputStr.trim().isEmpty()) {
             System.out.println("Введите имя нового контакта (обязательное поле. не может быть пустым):");
             inputStr = input.next();
-        } while (inputStr.trim().isEmpty());
+        }
         currContact.setName(inputStr);
 
         inputStr = "";
-        do {
+        while (inputStr.trim().isEmpty()) {
             System.out.println("Введите номер телефона нового контакта (обязательное поле. не может быть пустым):");
             inputStr = input.next();
-        } while (inputStr.trim().isEmpty());
+        }
         currContact.setPhoneNum(inputStr);
 
         inputStr = "";
@@ -105,17 +105,19 @@ public class Main {
 
             switch (menu) {
                 case 1 -> {
-                    do {
+                    inputStr = "";
+                    while (inputStr.trim().isEmpty()) {
                         System.out.println("Введите новое имя контакта (обязательное поле. не может быть пустым):");
                         inputStr = input.next();
-                    } while (inputStr.trim().isEmpty());
+                    }
                     phoneBook.setValueContact(contact,"name", inputStr);
                 }
                 case 2 -> {
-                    do {
+                    inputStr = "";
+                    while (inputStr.trim().isEmpty()) {
                         System.out.println("Введите новый номер телефона контакта (обязательное поле. не может быть пустым):");
                         inputStr = input.next();
-                    } while (inputStr.trim().isEmpty());
+                    }
                     phoneBook.setValueContact(contact,"phone", inputStr);
                 }
                 case 3 -> {
