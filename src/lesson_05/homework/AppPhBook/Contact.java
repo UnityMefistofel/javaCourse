@@ -1,4 +1,4 @@
-package lesson_06.homework.AppPhBook;
+package lesson_05.homework.AppPhBook;
 
 public class Contact {
     private String nameStr;
