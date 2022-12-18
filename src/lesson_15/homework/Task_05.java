@@ -25,9 +25,10 @@ public class Task_05 {
             lstInput.add(strInput.trim());
         }
 
-        //вспомогательный массив для хранения порядка чисел/строк
+        // вспомогательный массив для хранения порядка чисел/строк
         boolean[] arrIsIntType = new boolean[lstInput.size()];
 
+        // раскладываем строки на два списка (числовой и строковый)
         for (String elem : lstInput) {
             if (isNumeric(elem)) {
                 lstIntegers.add(Integer.parseInt(elem));
@@ -37,14 +38,16 @@ public class Task_05 {
             arrIsIntType[lstInput.indexOf(elem)] = isNumeric(elem);
         }
 
+        // получаем новые списки через сортировку в потоке
         List<Integer> lstSortInt = lstIntegers.stream().sorted(Comparator.reverseOrder()).toList();
         List<String> lstSortStr = lstStrings.stream().sorted().toList();
 
+        // вспомогательные курсоры для вывода текущего элемента каждого списка
         int idxInt = 0;
         int idxStr = 0;
 
+        // вывод результата в консоль
         for (int i = 0; i < arrIsIntType.length; i++) {
-
             if (arrIsIntType[i]) {
                 System.out.println(lstSortInt.get(idxInt++));
             } else {
